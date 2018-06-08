@@ -11,37 +11,15 @@ namespace ArraySortGames
         static void Main(string[] args)
         {
             IsPalindrome();
-
-
-            int[] myArray = new int[] { 1, 3, 2, 4, 5, 9, 7};
-            
-            int holder = 0;
-            for(int i=0; i<myArray.Length; i++)
-            {
-                for(int y = i + 1; y <myArray.Length; y++)
-                {
-                    if(myArray[y] > myArray[i]) //revers this for the other way
-                    {
-                        holder = myArray[y];
-                        myArray[y] = myArray[i];
-                        myArray[i] = holder;
-                    }
-                 
-                }
-
-            }
-
-            foreach (var str in myArray)
-            {
-                Console.Write(str + " ");
-
-                //MessageBox.Show(str.ToString());
-            }
+            SortInts();
+            SortStrings();
+            FrequncyCounter("aasfafvvdddddfsssggg", 10);
 
 
             Console.ReadKey();
         }
 
+        
         private static void SortInts()
         {
             int temp = 0;
@@ -80,35 +58,6 @@ namespace ArraySortGames
         }
 
 
-        private static void SortSolved(int[] myArray)
-        {
-            int holder = 0;
-            for (int i = 0; i < myArray.Length; i++)
-            {
-                for (int j = i + 1; j < myArray.Length; j++)
-                {
-                    if (myArray[i] > myArray[j])
-                    {
-                        // lets to the replace 
-                        holder = myArray[j];
-                        myArray[j] = myArray[i];
-                        myArray[i] = holder;
-
-                    }
-                    Console.WriteLine(myArray[i]);
-                }
-            }
-
-
-            foreach (var str in myArray)
-            {
-                Console.Write(str + " ");
-
-                //MessageBox.Show(str.ToString());
-            }
-
-        }
-
         private static void IsPalindrome()
         {
             string p = "aba";
@@ -124,6 +73,40 @@ namespace ArraySortGames
                 Console.Write("true");
             else
                 Console.Write("false");
+        }
+
+
+        /// <summary>
+        /// Write a function that takes two parameters:
+        ///a String representing a text document
+        ///an integer providing the number of items to return
+        ///Implement the function such that it returns a list of Strings ordered by word frequency, the most frequently occurring word first.
+        ///Runtime not to exceed O(n)
+        /// </summary>
+        private static void FrequncyCounter(string content, int numberOfwords)
+        {
+            // basic validations
+            Dictionary<char, Frequency> wordMap = new Dictionary<char, Frequency>();
+
+            var contentArray = content.ToCharArray();
+            AddWordsToMap(contentArray, wordMap);
+            return; //just sort the array with the sorters below SortInts style
+        }
+
+        private static void AddWordsToMap(Char[] contentArray, Dictionary<char, Frequency> wordMap)
+        {
+            foreach (Char c in contentArray)
+            {
+                if (wordMap.ContainsKey(c))
+                {
+                    wordMap[c].incrementFrequency();
+                }
+                else
+                {
+                    Frequency token = new Frequency();
+                    wordMap.Add(c, token);
+                }
+            }
         }
 
     }
