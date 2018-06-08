@@ -1,0 +1,6 @@
+C:\Users\makbar\Documents\Visual Studio 2015\Projects\ArraySortGames\ArraySortGames\bin\Debug\ArraySortGames.exe.config
+C:\Users\makbar\Documents\Visual Studio 2015\Projects\ArraySortGames\ArraySortGames\bin\Debug\ArraySortGames.exe
+C:\Users\makbar\Documents\Visual Studio 2015\Projects\ArraySortGames\ArraySortGames\bin\Debug\ArraySortGames.pdb
+C:\Users\makbar\Documents\Visual Studio 2015\Projects\ArraySortGames\ArraySortGames\obj\Debug\ArraySortGames.csprojResolveAssemblyReference.cache
+C:\Users\makbar\Documents\Visual Studio 2015\Projects\ArraySortGames\ArraySortGames\obj\Debug\ArraySortGames.exe
+C:\Users\makbar\Documents\Visual Studio 2015\Projects\ArraySortGames\ArraySortGames\obj\Debug\ArraySortGames.pdb
