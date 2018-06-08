@@ -1,0 +1,325 @@
+{
+	"id": 0,
+	"feedName": "Outbound Feed - TEST BEST WAY ",
+	"corpName": "kohler",
+	"feedSchedulerUniqueId": null,
+	"feedWorkingDirectory": "E:\\DataExchange\\ssis\\clients\\Kohler\\User_SMP_Resume_ODF",
+	"feedServer": "LA4-PRD-FEED102",
+	"lastRefreshedOn": "0001-01-01T00:00:00",
+	"feedType": 0,
+	"lastRunOn": "0001-01-01T00:00:00",
+	"lastExecutionStatus": null,
+	"averagePeakWorkingSet": 0,
+	"averageCPUTime": 0,
+	"averageExecutionTime": 0,
+	"isDisabled": false,
+	"isException": false,
+	"exceptionMessage": null,
+	"isDtexec": false,
+	"isCdft": true,
+	"isMulti_Action": false,
+	"feedStoredProcedures": [
+		{
+			"id": null,
+			"feedId": null,
+			"storedProcedureName": "[sqlrewr].[pr_custom_kohler_user_smp_resume_data]",
+			"storedProcedureTables": [
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "component_property",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "career_pref_question",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "information_schema.tables",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "qti_text_local",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "qti_text",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "qti_item",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "qti_relation",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "qti_question",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "users",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_user_smp_rating",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "evergreen_smp_user_property_public",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_user_smp_data",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "custom_field_meta",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "evergreen_smp_user_property_private",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "evergreen_smp_user_relation",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "user_career_pref",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "career_pref_question_item",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_user_relocation_data",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "ou",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "user_career_pref_ou",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "career_pref_job_interest_category",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "user_interested_ou",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "resume_section",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "resume_section_attribute",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "user_resume_detail",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "user_resume",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "resume_section_attribute_value_local",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "resume_section_attribute_value",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_education",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_language_capabilities",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_certifications_licenses",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_work_experience",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_professional_accomplishments",
+					"operationType": "SELECT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_user_smp_data",
+					"operationType": "UPDATE"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_user_relocation_data",
+					"operationType": "UPDATE"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_education",
+					"operationType": "UPDATE"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_language_capabilities",
+					"operationType": "UPDATE"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_certifications_licenses",
+					"operationType": "UPDATE"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_work_experience",
+					"operationType": "UPDATE"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_professional_accomplishments",
+					"operationType": "UPDATE"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_user_smp_data",
+					"operationType": "DELETE"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_user_smp_rating",
+					"operationType": "INSERT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_user_smp_data",
+					"operationType": "INSERT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_user_relocation_data",
+					"operationType": "INSERT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_education",
+					"operationType": "INSERT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_language_capabilities",
+					"operationType": "INSERT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_certifications_licenses",
+					"operationType": "INSERT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_work_experience",
+					"operationType": "INSERT"
+				},
+				{
+					"id": 0,
+					"feedStoredProcedureId": 0,
+					"tableName": "sqlrewr.__tc_custom_kohler_resume_professional_accomplishments",
+					"operationType": "INSERT"
+				}
+			]
+		}
+	],
+	"fileOperations": null
+}

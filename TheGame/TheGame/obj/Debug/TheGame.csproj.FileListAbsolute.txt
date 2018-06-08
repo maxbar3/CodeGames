@@ -1,0 +1,7 @@
+C:\Users\makbar\source\repos\TheGame\TheGame\bin\Debug\TheGame.exe.config
+C:\Users\makbar\source\repos\TheGame\TheGame\bin\Debug\TheGame.exe
+C:\Users\makbar\source\repos\TheGame\TheGame\bin\Debug\TheGame.pdb
+C:\Users\makbar\source\repos\TheGame\TheGame\obj\Debug\TheGame.csprojResolveAssemblyReference.cache
+C:\Users\makbar\source\repos\TheGame\TheGame\obj\Debug\TheGame.csproj.CoreCompileInputs.cache
+C:\Users\makbar\source\repos\TheGame\TheGame\obj\Debug\TheGame.exe
+C:\Users\makbar\source\repos\TheGame\TheGame\obj\Debug\TheGame.pdb
